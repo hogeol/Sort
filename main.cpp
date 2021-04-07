@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int main() 
+int main(int argc, char** agrv) 
 {
 	int num = Initiallize();
 	int sort_select = Sort_selection();
@@ -81,5 +81,5 @@ int main()
 		delete[] heapsort_arr;
 		heapsort_arr = nullptr;
 	}
-	return -1;
+	return 0;
 }
