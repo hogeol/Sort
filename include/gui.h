@@ -53,7 +53,7 @@ int Selection()
 	int select = 0;
 	std::cout << std::endl;
 	std::cout << "Select an sort method" << std::endl;
-	std::cout << "1. Ascending order (¿À¸§Â÷¼ø)" << std::endl << "2. Descending order (³»¸²Â÷¼ø)" << std::endl << ">> ";
+	std::cout << "1. Ascending order (Â¿Ã€Â¸Â§Ã‚Ã·Â¼Ã¸)" << std::endl << "2. Descending order (Â³Â»Â¸Â²Ã‚Ã·Â¼Ã¸)" << std::endl << ">> ";
 	std::cin >> select;
 	if (select == 1)
 		return 1;
